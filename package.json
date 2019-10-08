@@ -1,0 +1,43 @@
+{
+  "name": "reid.cat",
+  "version": "1.0.0",
+  "description": "my personal site at https://reid.cat.",
+  "main": "index.js",
+  "repository": "https://github.com/sad/reid.cat",
+  "author": "reid",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "lint": "eslint src/js/*.js"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}

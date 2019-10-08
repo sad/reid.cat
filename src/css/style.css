@@ -1,0 +1,93 @@
+body, html {
+  margin: 40px;
+  margin-top: 50px;
+  color: #222;
+  background-color: #fff;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 3vh;
+  text-size-adjust: 100%;
+}
+
+a, a:visited {
+  color: #e26ad8;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  transition: 130ms linear;
+}
+
+input, input:focus {
+  border: none;
+  font-family: monospace;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .55);
+  outline: none;
+}
+
+::selection {
+  background: rgba(255, 255, 0, .3);
+  padding: 3px;
+}
+
+hr {
+  width: 15%;
+  margin-left: 0px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+code, .header {
+  user-select: none;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.info {
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: 1px solid rgba(0, 0, 0, .4);
+}
+
+.info span {
+  display: block;
+}
+
+#last {
+  display: none;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-duration: .35s;
+}
+
+#track {
+  /*font-style: oblique;*/
+  opacity: .7;
+}
+
+#track:before {
+  content: '\266A';
+  padding-right: 7px;
+}
+
+#track a {
+  font-style: initial;
+}
+
+#album {
+  padding-left: 15px;
+  opacity: .6;
+}
+
+#album span {
+  font-weight: bold;
+  font-style: italic;
+}
